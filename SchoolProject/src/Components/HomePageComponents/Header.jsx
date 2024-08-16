@@ -30,7 +30,7 @@ function Header() {
       <div className=''>
         <div className='relative bg-[#555ae7] h-[500px] w-[500px] rounded-full'>
         </div>
-        <img src="./images/bg1.png" alt="background"  className='absolute top-1 -right-8 h-[600px] w-[800px]'/>
+        <img src="./images/bg1.png" alt="background"  className='absolute top-14  h-[500px] w-[600px]'/>
         <div className='absolute bg-[#555ae7] h-[90px] w-[90px] rounded-full top-[450px] left-[650px]'></div>  
         <div className='absolute bg-yellow-400 h-[50px] w-[50px] rounded-full top-[150px] right-[100px]'></div>    
 

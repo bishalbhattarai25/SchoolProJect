@@ -11,8 +11,8 @@ function Choose() {
                 return(
                     <>
                     <div className='bg-white shadow-md border border-slate-200 p-5 flex flex-col gap-3 items-center rounded-lg'> 
-                        <div className='text-6xl'>{val.img}</div>
-                        <div className='text-xl font-semibold'>{val.title}</div>
+                        <div key={i} className={`text-6xl text-${val.color}-300`}>{val.img}</div>
+                        <div className={`text-xl font-semibold text-${val.color}-500`  }>{val.title}</div>
                         <div className='text-center text-gray-500'>{val.description}</div>
                     </div>
                     </>
